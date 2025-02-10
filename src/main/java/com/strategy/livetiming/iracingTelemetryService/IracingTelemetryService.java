@@ -26,6 +26,8 @@ public class IracingTelemetryService {
                         System.err.println("Error receiving telemetry data: " + error.getMessage());
                     });
 
+
+
                     break; // Exit loop once telemetry starts
                 } else {
                     System.out.println("Waiting for iRacing telemetry data...");
